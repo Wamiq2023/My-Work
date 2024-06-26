@@ -1,0 +1,71 @@
+.upper-body{
+    background-color: lightblue;
+    display: flex;
+    background-size: cover;
+    justify-content: flex-start;
+    
+    
+}
+.searchbar{
+    margin-left: 100px;
+    margin-top: -47px;
+}
+body{
+    background-color: rgb(200, 200, 200, 0.9);
+}
+.img{
+    margin-top: 50px;
+}
+.textfield{
+    margin-left: 300px;
+    margin-top: -260px;
+    background-color: whitesmoke;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-bottom: -10px;
+    height: 239px;
+}
+.text1{
+    margin-left: 55px;
+    margin-top: -34px;
+}
+.text2{
+    margin-left: 58px;
+    margin-top: -33px;
+}
+.text3{
+    margin-left: 45px;
+    margin-top: -33px;
+}
+.buy{
+    width: 100px;
+    height: 22px;
+    border-radius: 10px;
+    background-color: lightcyan;
+    border-style: none;
+}
+.cart{
+
+    width: 100px;
+    height: 22px;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+    border-style: none;
+    }
+.buttons{
+    display: flex;
+    gap: 10px;
+
+    }
+.buy:hover{
+    background-color: aqua;
+    transition: all 1s ease-in;
+    }
+.cart:hover{
+    background-color: yellow;
+    transition: all 1s ease-in;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
